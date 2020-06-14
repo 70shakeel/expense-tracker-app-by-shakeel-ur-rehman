@@ -1,0 +1,73 @@
+.newTransaction {
+  font-family: "Roboto Mono", monospace;
+}
+
+.newTransaction p {
+  text-align: start;
+  color: lightgray;
+}
+
+.newTransaction .form-1 {
+  width: 275px;
+  text-align: start;
+}
+
+.newTransaction .form-1 form {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+.newTransaction .form-1 form label {
+  line-height: 0.1;
+  text-align: start;
+  width: 100%;
+  color: lightgray;
+}
+
+.newTransaction .form-1 form input {
+  color: white;
+  border: none;
+  background: none;
+  border-bottom: 2px solid black;
+  line-height: 0.1;
+  text-align: start;
+  width: 100%;
+  padding-left: 0px;
+  padding-top: 5px;
+  font-size: 12pt;
+}
+
+.newTransaction .form-1 form input:hover {
+  border: none;
+  border-bottom: 2px solid lightgray;
+}
+
+.newTransaction .form-1 form input:focus {
+  border-bottom: 2px solid yellow;
+  outline: none !important;
+}
+
+.newTransaction .form-1 form p {
+  color: lightgray;
+  line-height: 0.1;
+  text-align: start;
+}
+
+.newTransaction .form-1 form button {
+  margin-top: 10px;
+  width: 110%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  background-color: black;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-weight: lighter;
+  font-family: "Roboto Mono", monospace;
+  font-size: 14pt;
+  text-align: center;
+  outline: none;
+}
+/*# sourceMappingURL=NewTransaction.css.map */

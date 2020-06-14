@@ -1,0 +1,64 @@
+.history {
+  height: 100%;
+  hr {
+    color: black;
+  }
+  h4 {
+    line-height: 0.001;
+    text-align: start;
+  }
+}
+.transactiontype {
+  text-align: start;
+  p {
+    margin: none !important;
+    padding: none !important;
+  }
+}
+.amount {
+  text-align: right;
+  p {
+    margin: none !important;
+    padding: none !important;
+  }
+}
+
+.gamount {
+  padding: none !important;
+  margin: none !important;
+  &:hover {
+    .btn-1 {
+      display: block !important;
+      background-color: red;
+      border: none;
+      padding: 5px;
+    }
+  }
+}
+.minus {
+  background-color: rgba(255, 0, 0, 0.5) !important;
+  border-right: 10px solid red;
+}
+.hfive {
+  margin: 0 !important;
+}
+
+.btn-1 {
+  display: none;
+}
+.forHover {
+  &:hover {
+    .btn-1 {
+      display: block !important;
+      border: none;
+      padding-left: 5px;
+      background: none !important;
+      font-size: 20pt;
+      font-weight: bolder;
+      text-align: end;
+      outline: none;
+      align-items: center;
+      margin-top: -50%;
+    }
+  }
+}

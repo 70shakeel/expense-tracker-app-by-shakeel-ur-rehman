@@ -1,0 +1,71 @@
+.history {
+  height: 100%;
+}
+
+.history hr {
+  color: black;
+}
+
+.history h4 {
+  line-height: 0.001;
+  text-align: start;
+}
+
+.transactiontype {
+  text-align: start;
+}
+
+.transactiontype p {
+  margin: none !important;
+  padding: none !important;
+}
+
+.amount {
+  text-align: right;
+}
+
+.amount p {
+  margin: none !important;
+  padding: none !important;
+}
+
+.gamount {
+  padding: none !important;
+  margin: none !important;
+}
+
+.gamount:hover .btn-1 {
+  display: block !important;
+  background-color: red;
+  border: none;
+  padding: 5px;
+}
+
+.minus {
+  background-color: rgba(255, 0, 0, 0.5) !important;
+  border-right: 10px solid red;
+}
+
+.hfive {
+  margin: 0 !important;
+}
+
+.btn-1 {
+  display: none;
+}
+
+.forHover:hover .btn-1 {
+  display: block !important;
+  border: none;
+  padding-left: 5px;
+  background: none !important;
+  font-size: 20pt;
+  font-weight: bolder;
+  text-align: end;
+  outline: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -50%;
+}
+/*# sourceMappingURL=History.css.map */

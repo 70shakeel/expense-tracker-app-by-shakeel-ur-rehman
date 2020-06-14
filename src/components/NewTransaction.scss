@@ -1,0 +1,61 @@
+.newTransaction {
+  font-family: "Roboto Mono", monospace;
+  p {
+    text-align: start;
+    color: lightgray;
+  }
+  .form-1 {
+    width: 275px;
+    text-align: start;
+    form {
+      align-items: start;
+      label {
+        line-height: 0.1;
+        text-align: start;
+        width: 100%;
+        color: lightgray;
+      }
+      input {
+        color: white;
+        border: none;
+        background: none;
+        border-bottom: 2px solid black;
+        line-height: 0.1;
+        text-align: start;
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 5px;
+        font-size: 12pt;
+        &:hover {
+          border: none;
+          border-bottom: 2px solid lightgray;
+        }
+        &:focus {
+          border-bottom: 2px solid yellow;
+          outline: none !important;
+        }
+      }
+      p {
+        color: lightgray;
+        line-height: 0.1;
+        text-align: start;
+      }
+      button {
+        margin-top: 10px;
+        width: 110%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+        background-color: black;
+        border: none;
+        border-radius: 20px;
+        color: white;
+        font-weight: lighter;
+        font-family: "Roboto Mono", monospace;
+        font-size: 14pt;
+        text-align: center;
+        outline: none;
+      }
+    }
+  }
+}
